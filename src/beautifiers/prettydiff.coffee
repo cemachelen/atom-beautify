@@ -61,6 +61,7 @@ module.exports = class PrettyDiff extends Beautifier
     JSON: true
     TSS: true
     Twig: true
+    jinja2: true
     LESS: true
     Swig: true
     "UX Markup": true
@@ -91,7 +92,7 @@ module.exports = class PrettyDiff extends Beautifier
           lang = "markup"
         when "XML", "Visualforce", "SVG", "UX Markup"
           lang = "xml"
-        when "HTML", "Nunjucks", "Coldfusion"
+        when "HTML", "Nunjucks", "Coldfusion", "jinja2"
           lang = "html"
         when "JavaScript"
           lang = "javascript"

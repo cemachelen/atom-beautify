@@ -8032,6 +8032,174 @@
       }
     }
   },
+  "jinja2": {
+    "title": "jinja2",
+    "type": "object",
+    "description": "Options for language jinja2",
+    "collapsed": true,
+    "beautifiers": [
+      "Pretty Diff"
+    ],
+    "grammars": [
+      "HTML (Jinja Templates)"
+    ],
+    "extensions": [
+      "j2"
+    ],
+    "properties": {
+      "indent_size": {
+        "type": "integer",
+        "default": null,
+        "minimum": 0,
+        "description": "Indentation size/length (Supported by Pretty Diff)",
+        "title": "Indent size",
+        "beautifiers": [
+          "Pretty Diff"
+        ],
+        "key": "indent_size",
+        "language": {
+          "name": "HTML",
+          "namespace": "html"
+        }
+      },
+      "indent_char": {
+        "type": "string",
+        "default": null,
+        "description": "Indentation character (Supported by Pretty Diff)",
+        "title": "Indent char",
+        "beautifiers": [
+          "Pretty Diff"
+        ],
+        "key": "indent_char",
+        "language": {
+          "name": "HTML",
+          "namespace": "html"
+        }
+      },
+      "indent_with_tabs": {
+        "type": "boolean",
+        "default": null,
+        "description": "Indentation uses tabs, overrides `Indent Size` and `Indent Char` (Supported by Pretty Diff)",
+        "title": "Indent with tabs",
+        "beautifiers": [
+          "Pretty Diff"
+        ],
+        "key": "indent_with_tabs",
+        "language": {
+          "name": "JavaScript",
+          "namespace": "js"
+        }
+      },
+      "preserve_newlines": {
+        "type": "boolean",
+        "default": true,
+        "description": "Preserve line-breaks (Supported by Pretty Diff)",
+        "title": "Preserve newlines",
+        "beautifiers": [
+          "Pretty Diff"
+        ],
+        "key": "preserve_newlines",
+        "language": {
+          "name": "HTML",
+          "namespace": "html"
+        }
+      },
+      "space_in_paren": {
+        "type": "boolean",
+        "default": false,
+        "description": "Add padding spaces within paren, ie. f( a, b ) (Supported by Pretty Diff)",
+        "title": "Space in paren",
+        "beautifiers": [
+          "Pretty Diff"
+        ],
+        "key": "space_in_paren",
+        "language": {
+          "name": "JavaScript",
+          "namespace": "js"
+        }
+      },
+      "space_after_anon_function": {
+        "type": "boolean",
+        "default": false,
+        "description": "Add a space before an anonymous function's parens, ie. function () (Supported by Pretty Diff)",
+        "title": "Space after anon function",
+        "beautifiers": [
+          "Pretty Diff"
+        ],
+        "key": "space_after_anon_function",
+        "language": {
+          "name": "JavaScript",
+          "namespace": "js"
+        }
+      },
+      "break_chained_methods": {
+        "type": "boolean",
+        "default": false,
+        "description": "Break chained method calls across subsequent lines (Supported by Pretty Diff)",
+        "title": "Break chained methods",
+        "beautifiers": [
+          "Pretty Diff"
+        ],
+        "key": "break_chained_methods",
+        "language": {
+          "name": "JavaScript",
+          "namespace": "js"
+        }
+      },
+      "wrap_line_length": {
+        "type": "integer",
+        "default": 250,
+        "description": "Maximum characters per line (0 disables) (Supported by Pretty Diff)",
+        "title": "Wrap line length",
+        "beautifiers": [
+          "Pretty Diff"
+        ],
+        "key": "wrap_line_length",
+        "language": {
+          "name": "HTML",
+          "namespace": "html"
+        }
+      },
+      "end_with_comma": {
+        "type": "boolean",
+        "default": false,
+        "description": "If a terminating comma should be inserted into arrays, object literals, and destructured objects. (Supported by Pretty Diff)",
+        "title": "End with comma",
+        "beautifiers": [
+          "Pretty Diff"
+        ],
+        "key": "end_with_comma",
+        "language": {
+          "name": "JavaScript",
+          "namespace": "js"
+        }
+      },
+      "disabled": {
+        "title": "Disable Beautifying Language",
+        "order": -3,
+        "type": "boolean",
+        "default": false,
+        "description": "Disable jinja2 Beautification"
+      },
+      "default_beautifier": {
+        "title": "Default Beautifier",
+        "order": -2,
+        "type": "string",
+        "default": "Pretty Diff",
+        "description": "Default Beautifier to be used for jinja2",
+        "enum": [
+          "Pretty Diff"
+        ]
+      },
+      "beautify_on_save": {
+        "title": "Beautify On Save",
+        "order": -1,
+        "type": "boolean",
+        "default": false,
+        "description": "Automatically beautify jinja2 files on save"
+      }
+    }
+  },
   "typescript": {
     "title": "TypeScript",
     "type": "object",

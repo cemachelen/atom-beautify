@@ -8,14 +8,14 @@ module.exports = {
   Supported Grammars
   ###
   grammars: [
-    "HTML"
+    "HTML", "HTML (Jinja Templates)"
   ]
 
   ###
   Supported extensions
   ###
   extensions: [
-    "html"
+    "html", "j2"
   ]
 
   options:
